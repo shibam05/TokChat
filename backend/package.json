@@ -1,0 +1,29 @@
+{
+    "main": "server.ts",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon --exec ts-node src/server.ts",
+        "dev": "nodemon --exec ts-node src/server.ts"
+    },
+    "dependencies": {
+        "@prisma/client": "^6.19.3",
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.7",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/node": "^25.9.1",
+        "nodemon": "^3.1.14",
+        "prisma": "^6.19.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^6.0.3"
+    },
+    "allowScripts": {
+        "prisma@6.19.3": true,
+        "@prisma/engines@6.19.3": true,
+        "@prisma/client@6.19.3": true
+    }
+}
