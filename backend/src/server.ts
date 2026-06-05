@@ -3,8 +3,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import path from 'path';
-import authRoutes from "./routes/auth.route.js";
-import messageRoutes from "./routes/message.route.js";
+import authRoutes from "./routes/auth.route.ts";
+import messageRoutes from "./routes/message.route.ts";
 
 dotenv.config();
 
